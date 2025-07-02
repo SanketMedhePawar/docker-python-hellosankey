@@ -1,5 +1,8 @@
 # docker-python-hellosankey
+
 Dockerise Python Code
+
+```bash
 sudo yum install python -y
 python --version
 sudo yum install tree -y
@@ -20,11 +23,11 @@ sudo nano dockerfile
 cat dockerfile 
 cat helloworld.py 
 python3 helloworld.py 
-sudo docker build -t atuljkamble/pythonhelloworld .
+sudo docker build -t sanketmedhepawar/pythonhellosankey .
 sudo docker images
-sudo docker run atuljkamble/pythonhelloworld
+sudo docker run sanketmedhepawar/pythonhellosankey
 sudo docker container ls
 sudo docker ps -a
-sudo docker push atuljkamble/pythonhelloworld
-sudo docker pull atuljkamble/pythonhelloworld
-sudo docker run atuljkamble/pythonhelloworld
+sudo docker push sanketmedhepawar/pythonhellosankey
+sudo docker pull sanketmedhepawar/pythonhellosankey
+sudo docker run sanketmedhepawar/pythonhellosankey
